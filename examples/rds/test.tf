@@ -4,7 +4,7 @@ terraform {
       source = "hashicorp/aws"
     }
     postgresql = {
-      source  = "cyrilgdn/postgresql"
+      source  = "jben94/postgresql"
       version = "1.12.0"
     }
   }
